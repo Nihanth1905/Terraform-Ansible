@@ -25,7 +25,7 @@ status = "Enabled"
 
 terraform {
 backend "s3" {
-region = "us-east-1"
+region = "eu-north-1"
 bucket = "nihanth.monobucket"
 key = "prod/terraform.tfstate"
 }
